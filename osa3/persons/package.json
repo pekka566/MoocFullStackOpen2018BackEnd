@@ -1,0 +1,30 @@
+{
+  "name": "persons",
+  "version": "1.0.0",
+  "description": "MOOC Full-stack open back end.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pekka566/MoocFullStackOpen2018BackEnd.git"
+  },
+  "keywords": [
+    "Node.js"
+  ],
+  "author": "Pekka Suomala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pekka566/MoocFullStackOpen2018BackEnd/issues"
+  },
+  "homepage": "https://github.com/pekka566/MoocFullStackOpen2018BackEnd#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
