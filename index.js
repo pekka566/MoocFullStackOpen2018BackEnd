@@ -6,6 +6,7 @@ const app = express()
 
 app.use(cors())
 app.use(bodyParser.json())
+app.use(express.static('build'))
 //app.use(morgan("tiny"))
 app.use(morgan(':method :url :req :status :res[content-length] - :response-time ms'))
 morgan.token('req', function (req, res) { return JSON.stringify( req.body ) })
